@@ -1,6 +1,6 @@
 {-
-	Module lcom = 1
-	LOC = 21
+	Module lcom = 2
+	LOC = 23
 	CBO = 0
 -}
 module Example1
@@ -31,3 +31,7 @@ isCar _ = False
 -- lets repaint
 repaint :: Car -> Color -> Car
 repaint car newColor = car { color = newColor }
+
+-- second lcom group below
+magicNumber :: Int
+magicNumber = 42
