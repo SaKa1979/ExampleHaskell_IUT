@@ -4,6 +4,7 @@
 	CBO = 0
 -}
 module Example2
+    (addition)
     where
 
 addition :: Int -> Int -> Int
