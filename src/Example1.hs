@@ -1,10 +1,12 @@
 {-
-	Module lcom = 2
-	LOC = 23
-	CBO = 0
+	LCOM = 2
+	LOC = 26
+	CBO = 2
 -}
 module Example1
     where
+
+import Example2
 
 type CarType = (String, String)
 
@@ -35,3 +37,7 @@ repaint car newColor = car { color = newColor }
 -- second lcom group below
 magicNumber :: Int
 magicNumber = 42
+
+-- call external function1
+add :: Int -> Int
+add a = addition magicNumber a
