@@ -1,5 +1,5 @@
 {-
-	Module lcom = 1
+	LCOM = 1
 	LOC = 11
 	CBO = 0
 -}
@@ -16,7 +16,3 @@ newtype Amount = Amount Integer
 instance Nums Amount where
   fromNums n = Amount n
   toNums (Amount n) = n
-
-
-
---Some empty lines

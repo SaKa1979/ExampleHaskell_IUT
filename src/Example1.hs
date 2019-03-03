@@ -1,12 +1,13 @@
 {-
-	LCOM = 2
-	LOC = 26
+	Module lcom = 3
+	LOC = 36
 	CBO = 2
 -}
 module Example1
     where
 
-import Example2
+import qualified Example2 as E2
+import Example3
 
 type CarType = (String, String)
 
@@ -40,4 +41,11 @@ magicNumber = 42
 
 -- call external function1
 add :: Int -> Int
-add a = addition magicNumber a
+add a = E2.addition magicNumber a
+
+-- use external type class
+sumNums :: Nums a => a -> a -> a
+sumNums a b = fromNums s where
+  x = toNums a
+  y = toNums b
+  s = x + y

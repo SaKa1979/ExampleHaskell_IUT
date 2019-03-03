@@ -1,6 +1,6 @@
 {-
 	LCOM = 1
-	LOC = 4
+	LOC = 5
 	CBO = 0
 -}
 module Example2
