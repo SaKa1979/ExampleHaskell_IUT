@@ -8,4 +8,4 @@ module Example2
     where
 
 addition :: Int -> Int -> Int
-addition c d = c + d
+addition a b = a + b

@@ -41,7 +41,7 @@ magicNumber = 42
 
 -- call external function1
 add :: Int -> Int
-add a = E2.addition magicNumber a
+add b = E2.addition magicNumber b
 
 -- use external type class
 sumNums :: Nums a => a -> a -> a
