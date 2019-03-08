@@ -1,6 +1,6 @@
 {-
 	Module lcom = 3
-	LOC = 36
+	LOC = 32
 	CBO = 2
 -}
 module Example1
